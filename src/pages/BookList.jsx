@@ -12,7 +12,7 @@ const BookList = ({handleSort}) => {
             Sort By
           </div>
           <ul
-            tabIndex={0}//
+            tabIndex={0}//It is a number
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li onClick={()=>handleSort(`Rahat the great`)} className="cursor-pointer">
